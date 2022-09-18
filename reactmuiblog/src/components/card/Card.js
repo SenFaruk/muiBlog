@@ -1,9 +1,13 @@
-import { Box, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, CardContent, CardMedia, Link, Typography } from '@mui/material'
 import React from 'react'
 
 const Card = ({Reptile}) => {
   return (
     <Box>
+      <Link href="http://localhost:3000/details" sx={{
+        textDecoration:"none"
+      }}>
+      
          <CardMedia
         component="img"
         height="100%"
@@ -27,6 +31,7 @@ const Card = ({Reptile}) => {
           6,000 species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
+      </Link>
     </Box>
   )
 }

@@ -31,6 +31,7 @@ const Hero = () => {
           background: `url(${Uyu})`,
           backgroundRepeat: "no-repeat",
           backgroundColor: "black",
+          backgroundAttachment:"fixed",
           backgroundPosition: "center",
           backgroundSize: "cover",
           height: 550,
